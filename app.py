@@ -1,5 +1,6 @@
 import os
 import re
+from flask_cors import CORS
 from dotenv import load_dotenv
 from airtable_con import get_answer, airtable
 from datetime import datetime
@@ -15,6 +16,8 @@ personal_api_key = os.getenv("API_KEY")  # Add this line
 
 
 app = Flask(__name__)
+CORS(app, resources={r"/*": {"origins": "*"}})
+
 llm = ChatOpenAI(model_name ='gpt-3.5-turbo', temperature=0.9, max_tokens=256)
 
 name = "bob"
