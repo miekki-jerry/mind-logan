@@ -30,6 +30,7 @@ hnswlib==0.7.0
 httptools==0.5.0
 humanfriendly==10.0
 idna==3.4
+flask-cors==3.0.10
 importlib-metadata==6.6.0
 itsdangerous==2.1.2
 Jinja2==3.1.2
