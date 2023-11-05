@@ -1,5 +1,7 @@
 # Logan. Personal english teacher.
 
+NOTE: This is public v.1 only for showcase. I'm actually developing v.2 with Firebase Authentication, Firebase Storage, and much more. Stay tuned.
+
 ## Why he is so special?
 ### tl;dr
 
